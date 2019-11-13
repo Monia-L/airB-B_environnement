@@ -18,3 +18,6 @@ Un git hook exécute une commande automatiquement à chaque fois que Git le déc
 Installe Jest pour écrire et d'exécuter les tests : npm install --save-dev jest-expo @types/jest
 Installe React Test Renderer pour tester les composants React : npm install --save-dev react-test-renderer@16.8.3
 Ajouter dans le package.json : "jest":... et la commande test pour pvr executer
+
+Execution des tests en tps réel :
+package.json....script..test:watch
