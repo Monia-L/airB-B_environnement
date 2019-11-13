@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Button, Alert } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
@@ -13,7 +13,8 @@ const styles = StyleSheet.create({
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>hi hi ! </Text>
+      <Text>Es-tu cool ? </Text>
+      <Button title="Touch me !" onPress={() => Alert.alert('Aïe!')} />
     </View>
   );
 }

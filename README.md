@@ -13,3 +13,8 @@ Installe Husky pour configurer facilement des git hooks dans ton projet : npm in
 
 Un git hook exécute une commande automatiquement à chaque fois que Git le déclenche, par exemple avant chaque commit ou avant chaque push.
 •Dans package.json, ajoute la configuration "husky" &"lint-staged":
+
+// pour les tests
+Installe Jest pour écrire et d'exécuter les tests : npm install --save-dev jest-expo @types/jest
+Installe React Test Renderer pour tester les composants React : npm install --save-dev react-test-renderer@16.8.3
+Ajouter dans le package.json : "jest":... et la commande test pour pvr executer
